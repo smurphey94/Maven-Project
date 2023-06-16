@@ -26,6 +26,6 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - name: Build and push
       run: |
-        docker build -t smurhey94/intel-app:latest .
+        docker build -t smurphey94/intel-app:latest .
         docker images
-        docker push smurhey94/intel-app:latest
+        docker push smurphey94/intel-app:latest
